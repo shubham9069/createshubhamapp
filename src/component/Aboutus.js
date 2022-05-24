@@ -10,7 +10,7 @@ export default function Aboutus() {
     
     
     const change = ()=>{
-        if(mystyle.color == 'black'){
+        if(mystyle.color === 'black'){
             setMyStyle({
                 color: 'white',
                 backgroundColor: 'black'    /* dark mode enable*/
